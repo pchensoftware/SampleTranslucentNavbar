@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81262800186239C100BFFCC6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 812627FF186239C100BFFCC6 /* README.md */; };
 		812ED23A18622E51000526E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812ED23918622E51000526E1 /* Foundation.framework */; };
 		812ED23C18622E51000526E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812ED23B18622E51000526E1 /* CoreGraphics.framework */; };
 		812ED23E18622E51000526E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812ED23D18622E51000526E1 /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		812627FF186239C100BFFCC6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		812ED23618622E51000526E1 /* SampleTranslucentNavbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleTranslucentNavbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		812ED23918622E51000526E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		812ED23B18622E51000526E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +62,7 @@
 		812ED22D18622E51000526E1 = {
 			isa = PBXGroup;
 			children = (
+				812627FF186239C100BFFCC6 /* README.md */,
 				812ED23F18622E51000526E1 /* SampleTranslucentNavbar */,
 				812ED23818622E51000526E1 /* Frameworks */,
 				812ED23718622E51000526E1 /* Products */,
@@ -166,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81262800186239C100BFFCC6 /* README.md in Resources */,
 				812ED24418622E51000526E1 /* InfoPlist.strings in Resources */,
 				812ED24C18622E51000526E1 /* Images.xcassets in Resources */,
 			);
@@ -320,6 +324,7 @@
 				812ED26418622E51000526E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
