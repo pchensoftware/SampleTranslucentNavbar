@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		812ED23A18622E51000526E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812ED23918622E51000526E1 /* Foundation.framework */; };
+		812ED23C18622E51000526E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812ED23B18622E51000526E1 /* CoreGraphics.framework */; };
+		812ED23E18622E51000526E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812ED23D18622E51000526E1 /* UIKit.framework */; };
+		812ED24418622E51000526E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 812ED24218622E51000526E1 /* InfoPlist.strings */; };
+		812ED24618622E51000526E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 812ED24518622E51000526E1 /* main.m */; };
+		812ED24A18622E51000526E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 812ED24918622E51000526E1 /* AppDelegate.m */; };
+		812ED24C18622E51000526E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812ED24B18622E51000526E1 /* Images.xcassets */; };
+		812ED26A18622E67000526E1 /* TranslucentNavbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812ED26918622E67000526E1 /* TranslucentNavbarController.m */; };
+		812ED26D18623153000526E1 /* OptionsTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812ED26C18623153000526E1 /* OptionsTableController.m */; };
+		812ED27018623176000526E1 /* NormalNavbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812ED26F18623176000526E1 /* NormalNavbarController.m */; };
+		812ED2731862373A000526E1 /* TranslucentNavbarStatusBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812ED2721862373A000526E1 /* TranslucentNavbarStatusBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		812ED23618622E51000526E1 /* SampleTranslucentNavbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleTranslucentNavbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		812ED23918622E51000526E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		812ED23B18622E51000526E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		812ED23D18622E51000526E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		812ED24118622E51000526E1 /* SampleTranslucentNavbar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleTranslucentNavbar-Info.plist"; sourceTree = "<group>"; };
+		812ED24318622E51000526E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		812ED24518622E51000526E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		812ED24718622E51000526E1 /* SampleTranslucentNavbar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleTranslucentNavbar-Prefix.pch"; sourceTree = "<group>"; };
+		812ED24818622E51000526E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		812ED24918622E51000526E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		812ED24B18622E51000526E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		812ED25218622E51000526E1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		812ED26818622E67000526E1 /* TranslucentNavbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslucentNavbarController.h; sourceTree = "<group>"; };
+		812ED26918622E67000526E1 /* TranslucentNavbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslucentNavbarController.m; sourceTree = "<group>"; };
+		812ED26B18623153000526E1 /* OptionsTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsTableController.h; sourceTree = "<group>"; };
+		812ED26C18623153000526E1 /* OptionsTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsTableController.m; sourceTree = "<group>"; };
+		812ED26E18623176000526E1 /* NormalNavbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalNavbarController.h; sourceTree = "<group>"; };
+		812ED26F18623176000526E1 /* NormalNavbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalNavbarController.m; sourceTree = "<group>"; };
+		812ED2711862373A000526E1 /* TranslucentNavbarStatusBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslucentNavbarStatusBarController.h; sourceTree = "<group>"; };
+		812ED2721862373A000526E1 /* TranslucentNavbarStatusBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslucentNavbarStatusBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		812ED23318622E51000526E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812ED23C18622E51000526E1 /* CoreGraphics.framework in Frameworks */,
+				812ED23E18622E51000526E1 /* UIKit.framework in Frameworks */,
+				812ED23A18622E51000526E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		812ED22D18622E51000526E1 = {
+			isa = PBXGroup;
+			children = (
+				812ED23F18622E51000526E1 /* SampleTranslucentNavbar */,
+				812ED23818622E51000526E1 /* Frameworks */,
+				812ED23718622E51000526E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		812ED23718622E51000526E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				812ED23618622E51000526E1 /* SampleTranslucentNavbar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		812ED23818622E51000526E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				812ED23918622E51000526E1 /* Foundation.framework */,
+				812ED23B18622E51000526E1 /* CoreGraphics.framework */,
+				812ED23D18622E51000526E1 /* UIKit.framework */,
+				812ED25218622E51000526E1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		812ED23F18622E51000526E1 /* SampleTranslucentNavbar */ = {
+			isa = PBXGroup;
+			children = (
+				812ED26B18623153000526E1 /* OptionsTableController.h */,
+				812ED26C18623153000526E1 /* OptionsTableController.m */,
+				812ED26E18623176000526E1 /* NormalNavbarController.h */,
+				812ED26F18623176000526E1 /* NormalNavbarController.m */,
+				812ED26818622E67000526E1 /* TranslucentNavbarController.h */,
+				812ED26918622E67000526E1 /* TranslucentNavbarController.m */,
+				812ED2711862373A000526E1 /* TranslucentNavbarStatusBarController.h */,
+				812ED2721862373A000526E1 /* TranslucentNavbarStatusBarController.m */,
+				812ED24818622E51000526E1 /* AppDelegate.h */,
+				812ED24918622E51000526E1 /* AppDelegate.m */,
+				812ED24B18622E51000526E1 /* Images.xcassets */,
+				812ED24018622E51000526E1 /* Supporting Files */,
+			);
+			path = SampleTranslucentNavbar;
+			sourceTree = "<group>";
+		};
+		812ED24018622E51000526E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				812ED24118622E51000526E1 /* SampleTranslucentNavbar-Info.plist */,
+				812ED24218622E51000526E1 /* InfoPlist.strings */,
+				812ED24518622E51000526E1 /* main.m */,
+				812ED24718622E51000526E1 /* SampleTranslucentNavbar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		812ED23518622E51000526E1 /* SampleTranslucentNavbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812ED26218622E51000526E1 /* Build configuration list for PBXNativeTarget "SampleTranslucentNavbar" */;
+			buildPhases = (
+				812ED23218622E51000526E1 /* Sources */,
+				812ED23318622E51000526E1 /* Frameworks */,
+				812ED23418622E51000526E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleTranslucentNavbar;
+			productName = SampleTranslucentNavbar;
+			productReference = 812ED23618622E51000526E1 /* SampleTranslucentNavbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		812ED22E18622E51000526E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Peter Chen";
+			};
+			buildConfigurationList = 812ED23118622E51000526E1 /* Build configuration list for PBXProject "SampleTranslucentNavbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 812ED22D18622E51000526E1;
+			productRefGroup = 812ED23718622E51000526E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				812ED23518622E51000526E1 /* SampleTranslucentNavbar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		812ED23418622E51000526E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812ED24418622E51000526E1 /* InfoPlist.strings in Resources */,
+				812ED24C18622E51000526E1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		812ED23218622E51000526E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812ED27018623176000526E1 /* NormalNavbarController.m in Sources */,
+				812ED26A18622E67000526E1 /* TranslucentNavbarController.m in Sources */,
+				812ED24A18622E51000526E1 /* AppDelegate.m in Sources */,
+				812ED24618622E51000526E1 /* main.m in Sources */,
+				812ED26D18623153000526E1 /* OptionsTableController.m in Sources */,
+				812ED2731862373A000526E1 /* TranslucentNavbarStatusBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		812ED24218622E51000526E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				812ED24318622E51000526E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		812ED26018622E51000526E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		812ED26118622E51000526E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		812ED26318622E51000526E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleTranslucentNavbar/SampleTranslucentNavbar-Prefix.pch";
+				INFOPLIST_FILE = "SampleTranslucentNavbar/SampleTranslucentNavbar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		812ED26418622E51000526E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleTranslucentNavbar/SampleTranslucentNavbar-Prefix.pch";
+				INFOPLIST_FILE = "SampleTranslucentNavbar/SampleTranslucentNavbar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		812ED23118622E51000526E1 /* Build configuration list for PBXProject "SampleTranslucentNavbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812ED26018622E51000526E1 /* Debug */,
+				812ED26118622E51000526E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		812ED26218622E51000526E1 /* Build configuration list for PBXNativeTarget "SampleTranslucentNavbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812ED26318622E51000526E1 /* Debug */,
+				812ED26418622E51000526E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 812ED22E18622E51000526E1 /* Project object */;
+}
